@@ -1,0 +1,6 @@
+@Foggerithm.Api_HostAddress = http://localhost:5204
+
+GET {{Foggerithm.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

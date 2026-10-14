@@ -1,0 +1,91 @@
+
+# ==============================
+# .NET build output
+# ==============================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+out/
+publish/
+artifacts/
+TestResults/
+
+# ==============================
+# Visual Studio local files
+# ==============================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.rsuser
+
+# ==============================
+# Local configuration and secrets
+# ==============================
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+secrets.*.json
+.env
+.env.*
+!.env.example
+
+# Secret and certificate files
+*.pfx
+*.p12
+*.p7b
+*.p7c
+*.pem
+*.key
+*.private
+*.jks
+*.keystore
+
+# ==============================
+# Logs and temporary files
+# ==============================
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==============================
+# Local databases and backups
+# ==============================
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.dump
+
+# ==============================
+# Test and coverage output
+# ==============================
+coverage/
+coverage-reports/
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Local IDE and tooling
+# ==============================
+.idea/
+.vscode/
+_ReSharper*/
+*.DotSettings.user
